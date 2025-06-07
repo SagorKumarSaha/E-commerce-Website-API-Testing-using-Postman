@@ -1,0 +1,961 @@
+{
+	"id": "710871f3-90e0-4664-a9c6-0d853b02c540",
+	"name": "Automation Exercise API Testing",
+	"timestamp": "2025-06-07T07:32:58.928Z",
+	"collection_id": "32732118-8107b299-a7e3-4c08-a68e-2bba21389df6",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 155,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-06-07T07:32:23.167Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6129035e-f75b-42e5-a58b-3b2ed546a64d",
+			"name": "Create/Register User Account",
+			"url": "https://automationexercise.com/api/createAccount",
+			"time": 321,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				1201,
+				484,
+				304,
+				317,
+				321
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "ae781120-4678-4712-8ebe-e771af8ca632",
+			"name": "Create/Register User 2nd Account",
+			"url": "https://automationexercise.com/api/createAccount",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				306,
+				316,
+				620,
+				324,
+				305
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "9de9aff9-db38-4050-88ed-129ab31135e7",
+			"name": "user account detail by email",
+			"url": "https://automationexercise.com/api/getUserDetailByEmail?email=rony34436800@gmail.com",
+			"time": 309,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User id": true
+			},
+			"testPassFailCounts": {
+				"User id": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				303,
+				304,
+				301,
+				298,
+				309
+			],
+			"allTests": [
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				}
+			]
+		},
+		{
+			"id": "8d87d08c-7799-4541-afae-cc3ff37ea2c4",
+			"name": "METHOD To Update User Account",
+			"url": "https://automationexercise.com/api/updateAccount",
+			"time": 353,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				344,
+				395,
+				356,
+				327,
+				353
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "7cf11594-2c23-43db-bafe-027434bf0ef7",
+			"name": "user account detail by email",
+			"url": "https://automationexercise.com/api/getUserDetailByEmail?email=muluu88803146@gmail.com",
+			"time": 307,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User id": true
+			},
+			"testPassFailCounts": {
+				"User id": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				301,
+				303,
+				296,
+				292,
+				307
+			],
+			"allTests": [
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				},
+				{
+					"User id": true
+				}
+			]
+		},
+		{
+			"id": "42b784fa-63f9-45f5-a2bc-16783d684f5e",
+			"name": "METHOD To Delete User Account",
+			"url": "https://automationexercise.com/api/deleteAccount",
+			"time": 307,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				311,
+				325,
+				322,
+				307,
+				307
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "5bfaa3b2-989f-45bf-bedc-be4b1375792f",
+			"name": "Get user after delete",
+			"url": "https://automationexercise.com/api/getUserDetailByEmail?email=muluu88803146@gmail.com",
+			"time": 300,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				297,
+				313,
+				291,
+				304,
+				300
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "41d559bb-1d9b-4df0-89ad-fdc23053a766",
+			"name": "To Verify Login with valid details",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 309,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				292,
+				324,
+				319,
+				295,
+				309
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "a7c8589a-911c-40a5-a4a0-8dd4c6b78711",
+			"name": "To Verify Login without email parameter",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 307,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				291,
+				427,
+				298,
+				296,
+				307
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "2d649daa-2f7c-411d-aee2-667d199304e4",
+			"name": "To Verify Login with invalid details",
+			"url": "https://automationexercise.com/api/verifyLogin?email=123@gmail.com&password=Pass.1234",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				311,
+				325,
+				302,
+				322,
+				299
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "dbee07a9-4ba6-458c-9757-72672b885a76",
+			"name": "DELETE To Verify Login",
+			"url": "https://automationexercise.com/api/verifyLogin?email=123@gmail.com&password=Pass.1234",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				303,
+				312,
+				303,
+				289,
+				302
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "ee976f8b-1c79-4a16-8a2a-29fe812d5065",
+			"name": "All Products List",
+			"url": "https://automationexercise.com/api/productsList",
+			"time": 382,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"All products have valid IDs": true
+			},
+			"testPassFailCounts": {
+				"All products have valid IDs": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				444,
+				358,
+				356,
+				351,
+				382
+			],
+			"allTests": [
+				{
+					"All products have valid IDs": true
+				},
+				{
+					"All products have valid IDs": true
+				},
+				{
+					"All products have valid IDs": true
+				},
+				{
+					"All products have valid IDs": true
+				},
+				{
+					"All products have valid IDs": true
+				}
+			]
+		},
+		{
+			"id": "dc3a0cea-8179-4555-a1e3-00cf066aee30",
+			"name": "To All Products List",
+			"url": "https://automationexercise.com/api/productsList",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				311,
+				300,
+				291,
+				290,
+				305
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "01a6de86-a2dd-468a-8d0e-0c0ee35aa6bb",
+			"name": "All Brands List",
+			"url": "https://automationexercise.com/api/brandsList",
+			"time": 298,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"responseCode": true,
+				"All brands have valid IDs": true
+			},
+			"testPassFailCounts": {
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				},
+				"All brands have valid IDs": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				298,
+				301,
+				294,
+				300,
+				298
+			],
+			"allTests": [
+				{
+					"responseCode": true,
+					"All brands have valid IDs": true
+				},
+				{
+					"responseCode": true,
+					"All brands have valid IDs": true
+				},
+				{
+					"responseCode": true,
+					"All brands have valid IDs": true
+				},
+				{
+					"responseCode": true,
+					"All brands have valid IDs": true
+				},
+				{
+					"responseCode": true,
+					"All brands have valid IDs": true
+				}
+			]
+		},
+		{
+			"id": "dd00d266-e35c-4bc5-a93d-1d830ba55465",
+			"name": "To All Brands List",
+			"url": "https://automationexercise.com/api/brandsList",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				323,
+				292,
+				290,
+				287,
+				306
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "8cd62d90-09d7-42a3-b79e-a9dc519cd897",
+			"name": "To Search Product",
+			"url": "https://automationexercise.com/api/searchProduct",
+			"time": 333,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"All products have valid IDs": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"All products have valid IDs": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				377,
+				321,
+				328,
+				321,
+				333
+			],
+			"allTests": [
+				{
+					"All products have valid IDs": true,
+					"responseCode": true
+				},
+				{
+					"All products have valid IDs": true,
+					"responseCode": true
+				},
+				{
+					"All products have valid IDs": true,
+					"responseCode": true
+				},
+				{
+					"All products have valid IDs": true,
+					"responseCode": true
+				},
+				{
+					"All products have valid IDs": true,
+					"responseCode": true
+				}
+			]
+		},
+		{
+			"id": "4377a8da-5882-413e-b29b-b0a917ee9c71",
+			"name": "To Search Product without search_product parameter",
+			"url": "https://automationexercise.com/api/searchProduct",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"message": true,
+				"responseCode": true
+			},
+			"testPassFailCounts": {
+				"message": {
+					"pass": 5,
+					"fail": 0
+				},
+				"responseCode": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				334,
+				288,
+				312,
+				296,
+				297
+			],
+			"allTests": [
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				},
+				{
+					"message": true,
+					"responseCode": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 28174,
+	"collection": {
+		"requests": [
+			{
+				"id": "6129035e-f75b-42e5-a58b-3b2ed546a64d",
+				"method": "POST"
+			},
+			{
+				"id": "ae781120-4678-4712-8ebe-e771af8ca632",
+				"method": "POST"
+			},
+			{
+				"id": "9de9aff9-db38-4050-88ed-129ab31135e7",
+				"method": "GET"
+			},
+			{
+				"id": "8d87d08c-7799-4541-afae-cc3ff37ea2c4",
+				"method": "PUT"
+			},
+			{
+				"id": "7cf11594-2c23-43db-bafe-027434bf0ef7",
+				"method": "GET"
+			},
+			{
+				"id": "42b784fa-63f9-45f5-a2bc-16783d684f5e",
+				"method": "DELETE"
+			},
+			{
+				"id": "5bfaa3b2-989f-45bf-bedc-be4b1375792f",
+				"method": "GET"
+			},
+			{
+				"id": "41d559bb-1d9b-4df0-89ad-fdc23053a766",
+				"method": "POST"
+			},
+			{
+				"id": "a7c8589a-911c-40a5-a4a0-8dd4c6b78711",
+				"method": "POST"
+			},
+			{
+				"id": "2d649daa-2f7c-411d-aee2-667d199304e4",
+				"method": "POST"
+			},
+			{
+				"id": "dbee07a9-4ba6-458c-9757-72672b885a76",
+				"method": "DELETE"
+			},
+			{
+				"id": "ee976f8b-1c79-4a16-8a2a-29fe812d5065",
+				"method": "GET"
+			},
+			{
+				"id": "dc3a0cea-8179-4555-a1e3-00cf066aee30",
+				"method": "POST"
+			},
+			{
+				"id": "01a6de86-a2dd-468a-8d0e-0c0ee35aa6bb",
+				"method": "GET"
+			},
+			{
+				"id": "dd00d266-e35c-4bc5-a93d-1d830ba55465",
+				"method": "PUT"
+			},
+			{
+				"id": "8cd62d90-09d7-42a3-b79e-a9dc519cd897",
+				"method": "POST"
+			},
+			{
+				"id": "4377a8da-5882-413e-b29b-b0a917ee9c71",
+				"method": "POST"
+			}
+		]
+	}
+}
