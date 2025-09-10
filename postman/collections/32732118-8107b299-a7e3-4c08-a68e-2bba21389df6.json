@@ -1226,7 +1226,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "66dca062-e89a-499a-a08d-c4e4818b9abb",
+				"id": "6fe87411-dcab-4332-8446-8fd079e81952",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -1237,7 +1237,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "cdc99d18-90a9-4050-b0b8-64afa75ff1ca",
+				"id": "2a708299-fd13-417e-b179-942d3b39ef3e",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -1249,8 +1249,7 @@
 	"variable": [
 		{
 			"key": "baseurl",
-			"value": "https://automationexercise.com/api",
-			"type": "string"
+			"value": "https://automationexercise.com/api"
 		}
 	]
 }
